@@ -63,6 +63,4 @@ function Get-EC2VMinfo {
     }#Process
     end { }
 
-
-
 }#Function
