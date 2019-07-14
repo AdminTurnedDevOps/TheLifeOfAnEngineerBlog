@@ -14,6 +14,9 @@
     "vmName": {
       "value": "newvm"
     },
+    "adminPassword": {
+      "value": null
+    },
     "vmCount": {
       "value": 2
     },
