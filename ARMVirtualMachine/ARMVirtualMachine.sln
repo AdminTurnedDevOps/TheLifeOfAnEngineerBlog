@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "ARMVirtualMachine", "ARMVirtualMachine\ARMVirtualMachine.deployproj", "{01FF7332-7E77-4480-BA07-F75FD4C4D6A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01FF7332-7E77-4480-BA07-F75FD4C4D6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01FF7332-7E77-4480-BA07-F75FD4C4D6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01FF7332-7E77-4480-BA07-F75FD4C4D6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01FF7332-7E77-4480-BA07-F75FD4C4D6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41B75CD9-AC17-4FF8-ABF0-4AA3DDACE424}
+	EndGlobalSection
+EndGlobal
