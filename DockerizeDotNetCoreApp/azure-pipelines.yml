@@ -1,0 +1,21 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: AzureCLI@2
+  inputs:
+    azureSubscription: 'your_sub_name'
+    scriptType: 'pscore'
+    scriptLocation: 'inlineScript'
+    inlineScript: |
+      param(
+          [string]$RG = your_resource_group,
+          [string]$appPlanName = your_app_plan_name,
+          [string]$appName = your_web_app_name
+      )     
+
+      az appservice plan create -g $RG -n $appPlanName --sku B1 --is-linux
+      az webapp create -g $RG -p $appPlanName -n $appName -i docker_image_registry_path_in_acr
