@@ -30,7 +30,6 @@ resource "kubernetes_deployment" "Redis" {
         container {
           image = var.image_id
           name  = var.name
-          port = "6379"
           }
         }
       }
